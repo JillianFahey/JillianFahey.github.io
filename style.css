@@ -60,6 +60,8 @@ body {
 	font-size: 50px;
 	color: black;
 	background: #ffffff url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=sea-dawn-landscape-36717.jpg&fm=jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
 }
 
 .social {
