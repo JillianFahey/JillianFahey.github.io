@@ -5,8 +5,8 @@ body {
 
 .titlebar ul {
 	position: relative;
-	overflow: hidden;
-	list-style-type: none;
+overflow: hidden;
+list-style-type: none;
     margin: 0;
     padding: 0;
 	text-align: center;
@@ -44,7 +44,6 @@ body {
 }
 
 .content ul {
-	padding-top: 70px;
 	list-style-type: none;
 }
 
@@ -60,6 +59,7 @@ body {
 	font-size: 50px;
 	color: black;
 	background: #ffffff url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=sea-dawn-landscape-36717.jpg&fm=jpg");
+	background-position: top left;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 }
