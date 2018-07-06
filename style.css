@@ -52,13 +52,16 @@ list-style-type: none;
 }
 
 .greeting {
-	position: relative;
 	text-align: center;
 	float: center;
 	line-height: 1.2;
 	font-family: "Old Standard TT";
 	font-size: 50px;
 	color: black;
+}
+
+.greeting-words {
+	position: relative;
 }
 
 .social {
