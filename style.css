@@ -52,6 +52,7 @@ list-style-type: none;
 }
 
 .greeting {
+	position: relative;
 	text-align: center;
 	float: center;
 	line-height: 1.2;
