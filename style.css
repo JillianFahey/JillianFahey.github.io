@@ -50,7 +50,7 @@ body {
 }
 
 .content li {
-    display: inline-block;
+    display: block;
 }
 
 .greeting {
