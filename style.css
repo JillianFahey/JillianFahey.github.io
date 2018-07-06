@@ -64,6 +64,10 @@ list-style-type: none;
 	position: relative;
 }
 
+.greeting img {
+	width: 100%;
+}
+
 .social {
 	text-align: center;
 	font-family: "Old Standard TT";
