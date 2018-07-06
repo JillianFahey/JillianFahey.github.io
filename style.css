@@ -64,9 +64,9 @@ list-style-type: none;
 	position: relative;
 }
 
-.greeting img {
+.greeting li img {
 	position: relative;
-	width: 100%;
+	width: 70%;
 }
 
 .social {
