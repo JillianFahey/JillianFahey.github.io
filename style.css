@@ -82,6 +82,13 @@ body {
 	line-height: 1.4;
 }
 
+.book {
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 50px;
+	line-height: 1.4;
+}
+
 .social a {
 	text-decoration: none;
 	color: #fcabb7;
