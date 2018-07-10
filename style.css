@@ -82,7 +82,8 @@
 }
 
 .about {
-	width: 500px;	
+	width: 500px;
+float: center;	
 	text-align: center;
 	font-family: "Old Standard TT";
 	font-size: 50px;
