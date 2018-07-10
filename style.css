@@ -3,6 +3,10 @@ body {
 	margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 .content {
 	width: 100%;
 	display: flex;
@@ -66,7 +70,7 @@ body {
 }
 
 .home-greeting {
-	margin-top: 250px;
+	margin-top: 30vh;
 	color: #ffffff;
 	text-align: center;
 	font-family: "Old Standard TT";
@@ -74,12 +78,12 @@ body {
 
 .home-greeting-p1 {
 	margin: 0;
-	font-size: 5vw;
+	font-size: 6vw;
 }
 
 .home-greeting-p2 {
 	margin: 0;
-	font-size: 4vw;
+	font-size: 5vw;
 }
 
 @media only screen and (max-width: 800px) {
@@ -102,6 +106,7 @@ body {
 	margin-top: 20px;
 	color: #000000;
 	font-size: 50px;
+	text-align: center;
 }
 
 .book {
@@ -129,6 +134,16 @@ body {
 	float: center;
 	color: #000000;
 	font-size: 30px;
+}
+
+.rlabout {
+	text-align: left;
+	text-indent: 50px;
+}
+
+.rlabout-thanks {
+	text-align: center;
+	text-indent: 0px;
 }
 
 .rlabout-text, .rlabout-thanks, .rlcontact-text {
