@@ -53,8 +53,6 @@ body {
 
 .greeting {
     position: relative;
-    width: 100%;
-    height: auto;
     margin: auto;
     text-align: center;
     display: inline-block;
