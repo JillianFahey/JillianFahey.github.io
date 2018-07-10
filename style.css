@@ -1,8 +1,3 @@
-body {
-	height: 100%;
-	margin: 0;
-}
-
 .titlebar ul {
 	position: relative;
 	overflow: hidden;
@@ -52,7 +47,6 @@ body {
 }
 
 .greeting {
-	width: 100%;
     position: relative;
     margin: auto;
     text-align: center;
