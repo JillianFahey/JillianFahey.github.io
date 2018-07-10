@@ -1,3 +1,20 @@
+body {
+	height: 100%;
+	margin: 0;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.titlebar {
+	width: 100%;
+	flex: 0 1 auto;
+}
+
 .titlebar ul {
 	position: relative;
 	overflow: hidden;
@@ -38,73 +55,88 @@
 	margin: auto;
 }
 
-.content ul {
-	list-style-type: none;
+.home {
+	width: 100%;
+	flex: 1 1 auto;
+	background-image: url("assets/home-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
-.content li {
-	display: block;
-}
-
-.greeting {
-    position: relative;
-    margin: auto;
-    text-align: center;
-    display: inline-block;
-}
-
-.greeting-words {
-    position: absolute;
-	margin: auto;
-    top: 0;
-    bottom: 0;
-    color: #000000;
-    height: 100%;
-    width: 100%;
+.home-greeting {
+	margin-top: 250px;
+	color: #ffffff;
 	text-align: center;
 	font-family: "Old Standard TT";
-	font-size: 5vw;
-	line-height: 1.2;
-    transform: translate(0%, 10%);
 }
 
- @media only screen and (max-width: 600px) {
-    .greeting-words {
+.home-greeting-p1 {
+	margin: 0;
+	font-size: 5vw;
+}
+
+.home-greeting-p2 {
+	margin: 0;
+	font-size: 4vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .home-greeting-p1 {
+      font-size:8vw !important;
+	}
+    .home-greeting-p2 {
       font-size:7vw !important;
 	}
 }
 
-.social {
+.book, .about, .contact, .resources {
+	width: 100%;
+	flex: 1 1 auto;
 	text-align: center;
 	font-family: "Old Standard TT";
-	font-size: 50px;
-	line-height: 1.4;
 }
 
-.about {
-	width: 500px;
-	float: center;	
-	text-align: center;
-	font-family: "Old Standard TT";
+.header {
+	margin-top: 20px;
+	color: #000000;
 	font-size: 50px;
-	line-height: 1.4;
-}
-
-.resources {
-	text-align: center;
-	font-family: "Old Standard TT";
-	font-size: 50px;
-	line-height: 1.4;
 }
 
 .book {
-	text-align: center;
-	font-family: "Old Standard TT";
-	font-size: 50px;
-	line-height: 1.4;
+	background-color: #ffffff;
 }
 
-.social a {
+.about {
+	background-color: #fffdba;
+}
+
+.contact {
+	background-color: #e9def9;
+}
+
+.resources {
+	background-color: #e2efff;
+}
+
+.rlabout, .rlbook, .rlcontact, .rlresources {
+	margin: 0 auto;
+}
+
+.rlabout, .rlcontact, .rlresources {
+	width: 50%;
+	float: center;
+	color: #000000;
+	font-size: 30px;
+}
+
+.rlabout-text, .rlabout-thanks, .rlcontact-text {
+	margin: 0;
+	margin-top: 20px;
+}
+
+.rlcontact a {
 	text-decoration: none;
 	color: #fcabb7;
 }
