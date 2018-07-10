@@ -52,6 +52,7 @@ body {
 }
 
 .greeting {
+	width: 100vw;
     position: relative;
     margin: auto;
     text-align: center;
