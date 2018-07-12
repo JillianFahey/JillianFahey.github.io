@@ -137,7 +137,7 @@ p {
 	margin: 0 auto;
 }
 
-.rlabout, .rlcontact, .rlresources {
+.rlabout, .rlcontact, .rlresources, .rlbook {
 	width: 50%;
 	float: center;
 	color: #000000;
