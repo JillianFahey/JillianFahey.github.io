@@ -109,6 +109,13 @@ p {
 	text-align: center;
 }
 
+.subheader {
+	margin-top: 20px;
+	color: #000000;
+	font-size: 35px;
+	text-align: center;
+}
+
 .book {
 	background-color: #ffffff;
 }
