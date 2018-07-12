@@ -171,3 +171,8 @@ p {
 .rlresources a {
 	text-decoration: none;
 }
+
+.rlbook {
+	text-align: left;
+	text-indent: 50px;
+}
