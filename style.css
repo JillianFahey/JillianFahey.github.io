@@ -17,27 +17,28 @@ p {
 .titlebar {
 	width: 100%;
 	flex: 0 1 auto;
+	padding-top: 10px;
 }
 
 .titlebar ul {
 	position: relative;
 	overflow: hidden;
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 	text-align: center;
 	background-color: #ffffff;
 }
 
 .titlebar li {
 	vertical-align: top;
-    display: inline-block;
+	display: inline-block;
 }
 
 .titlebar a {
     float: left;
 	text-align: center;
-    padding: 29px 16px;
+    padding: 29px 6px;
     text-decoration: none;
 	color: #0c0c0c;
     font-size: 16px;
